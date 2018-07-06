@@ -1,7 +1,7 @@
 google-analytics-plugin
 =======================
-[![npm](https://img.shields.io/npm/v/cordova-plugin-google-analytics.svg)](https://www.npmjs.com/package/cordova-plugin-google-analytics)
-[![npm](https://img.shields.io/npm/dt/cordova-plugin-google-analytics.svg?label=npm%20downloads)](https://www.npmjs.com/package/cordova-plugin-google-analytics)
+[![npm](https://img.shields.io/npm/v/cordova-plugin-google-analytics-ts.svg)](https://www.npmjs.com/package/cordova-plugin-google-analytics-ts)
+[![npm](https://img.shields.io/npm/dt/cordova-plugin-google-analytics-ts.svg?label=npm%20downloads)](https://www.npmjs.com/package/cordova-plugin-google-analytics-ts)
 [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
 
 Cordova (PhoneGap) 3.0+ Plugin to connect to Google's native Universal Analytics SDK
@@ -20,7 +20,7 @@ cordova plugin add https://github.com/danwilson/google-analytics-plugin.git
 
 This plugin is also available on npm if you are using Cordova 5.0+:
 ```bash
-cordova plugin add cordova-plugin-google-analytics
+cordova plugin add cordova-plugin-google-analytics-ts
 ```
 
 ... OR the Cordova Plugin Registry if you are using a version of Cordova before 5.0 (while it remains open, as it is planning to shut down soon due to the move to npm):
