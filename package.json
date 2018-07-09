@@ -11,6 +11,9 @@
       "browser"
     ]
   },
+  "scripts": {
+    "version": "cordova-plugin-xml setVersion $npm_package_version && git add plugin.xml"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/danwilson/google-analytics-plugin.git"
@@ -27,5 +30,8 @@
     "universalanalytics"
   ],
   "author": "Dan Wilson",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "cordova-plugin-xml": "^0.1.2"
+  }
 }
